@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>User Profile Dashboard</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>User Profile Dashboard</h1>
+
+    <form id="userForm">
+      <input type="text" id="name" placeholder="Name" required>
+      <input type="email" id="email" placeholder="Email" required>
+      <input type="password" id="password" placeholder="Password" required>
+      <input type="text" id="bio" placeholder="Bio">
+      <input type="text" id="contact" placeholder="Contact">
+      <button type="submit">Add User</button>
+    </form>
+
+    <h2>All Users</h2>
+    <div id="userList"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
